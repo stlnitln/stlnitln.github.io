@@ -1,23 +1,108 @@
 <!DOCTYPE html>
-<html style="background-color:rgb(45,45,46); text-align: center;">
+<html>
+    <head>
+        <style>
+            body{
+                background-color: rgb(45,45,46);
+                color: white;
+                text-align: center;
+                font-family: Helvetica, sans-serif, Arial;
+            }
+            img.link{
+                width: 150px;
+                height: 150px;
+                border-radius: 15%;
+                background-color:rgb(105,105,105);
+            }
+            div.container{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                width: 800px;
+                height: 250px;
+                margin-left: auto;
+                margin-right: auto;
+                /* outline: dashed 1px black; */
+            }
+            div.child{
+                width: 25%;
+                /* outline: dashed 1px white; */
+            }
+        </style>
+    </head>
     <body>
-        <a href="https://engadget.com"><img src="https://s.yimg.com/kw/assets/apple-touch-icon-152x152.png" style="width:150px;height:150px;border-radius:15%;"></a>
-        <a href="https://arstechnica.com"><img src="https://cdn.arstechnica.net/wp-content/themes/ars/assets/img/ars-ios-icon-d9a45f558c.png" style="width:150px;height:150px;border-radius:15%;"></a>
-        <a href="https://theverge.com/archives/1"><img src="https://theverge.com/icons/apple_touch_icon.png" style="width:150px;height:150px;border-radius:15%;"></a>
-        <a href="https://hiphopdx.com"><img src="https://static.hiphopdx.com/assets/prod/img/apple-touch-icon.png" style="width:150px;height:150px;border-radius:15%;"></a>
-        <a href="http://premierwuzhere.com"><img src="http://PremierWuzHere.com/blog/wp-content/themes/keilir-premier-tan/images/favicon/apple-touch-icon-72x72.png" style="width:150px;height:150px;border-radius:15%; background-color:rgb(105,105,105)"></a>
-        <a href="https://defector.com"><img src="https://lede-admin.defector.com/wp-content/uploads/sites/28/2020/08/favicon.png" style="width:150px;height:150px;border-radius:15%; background-color:rgb(105,105,105)"></a>
-        <p></p>
-        <a href="https://thedrive.com"><img src="https://www.thedrive.com/uploads/2021/12/14/favicon-196x196-1.png" style="width:150px;height:150px;border-radius:15%; background-color:rgb(105,105,105)"></a>
-        <a href="https://theautopian.com"><img src="https://images-stag.jazelc.com/uploads/theautopian-m2en/autopianfavicon.png" style="width:150px;height:150px;border-radius:15%; background-color:rgb(105,105,105)"></a>
-        <a href="https://eater.com"><img src="https://cdn.vox-cdn.com/uploads/chorus_asset/file/6253175/favicon-96x96.0.png" style="width:150px;height:150px;border-radius:15%; background-color:rgb(105,105,105)"></a>
-        <a href="https://thetakeout.com/latest"><img src="https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_200,q_80,w_200/j59upeyynundqjvbmcwj.png" style="width:150px;height:150px;border-radius:15%; background-color:rgb(105,105,105)"></a>
-        <a href="https://audioholics.com"><img src="https://www.audioholics.com/apple-touch-icon.png" style="width:150px;height:150px;border-radius:15%; background-color:rgb(105,105,105)"></a>
-        <a href="https://thefarside.com"><img src="https://assets.thefarside.com/assets/packs/media/images/brand/meta_icons/apple-touch-icon-e96ffbf26642bedbfe9cb59866fccd09.png" style="width:150px;height:150px;border-radius:15%; background-color:rgb(105,105,105)"></a>
-        <p></p>
-        <a href="https://thegrio.com"><img src="https://thegrio.com/wp-content/uploads/2022/04/cropped-g-logo.png" style="width:150px;height:150px;border-radius:15%; background-color:rgb(105,105,105)"></a>
-        <a href="https://axios.com"><img src="https://www.axios.com/images/a_favicon-196.png" style="width:150px;height:150px;border-radius:15%; background-color:rgb(105,105,105)"></a>
-        <a href="https://theguardian.com"><img src="https://assets.guim.co.uk/images/favicons/1fe70b29879674433702d5266abcb0d4/144x144.png" style="width:150px;height:150px;border-radius:15%; background-color:rgb(105,105,105)"></a>
-        <a href="https://vox.com"><img src="https://cdn.vox-cdn.com/uploads/hub/sbnu_logo_minimal/441/touch_icon_iphone_retina_1000_yellow.755.png" style="width:150px;height:150px;border-radius:15%; background-color:rgb(105,105,105)"></a>
+        <div class="container">
+            <div class="child">
+                <a href="https://engadget.com"><img src="https://s.yimg.com/kw/assets/apple-touch-icon-152x152.png" class="link"></a>
+                <p>Engadget</p>
+            </div>
+            <div class="child">
+                 <a href="https://arstechnica.com"><img src="https://cdn.arstechnica.net/wp-content/themes/ars/assets/img/ars-ios-icon-d9a45f558c.png" class="link"></a>
+                 <p>Ars Techinca</p>
+            </div>
+            <div class="child">
+                <a href="https://theverge.com/archives/1"><img src="https://theverge.com/icons/apple_touch_icon.png" class="link"></a>
+                <p>The Verge</p>
+            </div>
+            <div class="child">
+                <a href="https://hiphopdx.com"><img src="https://static.hiphopdx.com/assets/prod/img/apple-touch-icon.png" class="link"></a>
+                <p>HipHopDX</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="child">
+                <a href="http://premierwuzhere.com"><img src="http://PremierWuzHere.com/blog/wp-content/themes/keilir-premier-tan/images/favicon/apple-touch-icon-72x72.png" class="link"></a>
+                <p>Premier Wuz Here</p>
+            </div>
+            <div class="child">
+                <a href="https://defector.com"><img src="https://lede-admin.defector.com/wp-content/uploads/sites/28/2020/08/favicon.png" class="link"></a>
+                <p>Defector</p>
+            </div>
+            <div class="child">
+                <a href="https://thedrive.com"><img src="https://www.thedrive.com/uploads/2021/12/14/favicon-196x196-1.png" class="link"></a>
+                <p>The Drive</p>
+            </div>
+            <div class="child">
+                <a href="https://theautopian.com"><img src="https://images-stag.jazelc.com/uploads/theautopian-m2en/autopianfavicon.png" class="link"></a>
+                <p>The Autopian</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="child">
+                <a href="https://eater.com"><img src="https://cdn.vox-cdn.com/uploads/chorus_asset/file/6253175/favicon-96x96.0.png" class="link"></a>
+                <p>Eater</p>
+            </div>
+            <div class="child">
+                <a href="https://thetakeout.com/latest"><img src="https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_200,q_80,w_200/j59upeyynundqjvbmcwj.png" class="link"></a>
+                <p>The Takeout</p>
+            </div>
+            <div class="child">
+                <a href="https://audioholics.com"><img src="https://www.audioholics.com/apple-touch-icon.png" class="link"></a>
+                <p>Audioholics</p>
+            </div>
+            <div class="child">
+                <a href="https://thefarside.com"><img src="https://assets.thefarside.com/assets/packs/media/images/brand/meta_icons/apple-touch-icon-e96ffbf26642bedbfe9cb59866fccd09.png" class="link"></a>
+                <p>The Far Side</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="child">
+                <a href="https://thegrio.com"><img src="https://thegrio.com/wp-content/uploads/2022/04/cropped-g-logo.png" class="link"></a>
+                <p>The Grio</p>
+            </div>
+            <div class="child">
+                <a href="https://axios.com"><img src="https://www.axios.com/images/a_favicon-196.png" class="link"></a>
+                <p>Axios</p>
+            </div>
+            <div class="child">
+                <a href="https://theguardian.com"><img src="https://assets.guim.co.uk/images/favicons/1fe70b29879674433702d5266abcb0d4/144x144.png" class="link"></a>
+                <p>The Guardian</p>
+            </div>
+            <div class="child">
+                <a href="https://vox.com"><img src="https://cdn.vox-cdn.com/uploads/hub/sbnu_logo_minimal/441/touch_icon_iphone_retina_1000_yellow.755.png" class="link"></a>
+                <p>Vox</p>
+            </div>
+        </div>
     </body>
 </html>
